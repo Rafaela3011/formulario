@@ -1,0 +1,49 @@
+<form>
+    <h1>Fórmulario</h1>
+<fieldset>
+    <legend>Dados pessoais</legend>
+    <label>Nome:<input type="text" name="nome"</label><br />
+    <label for="Data de nascimento">Data de nascimento:</label>
+    <input type="date" id="Data de nascimento" name="Data de nascimento">
+    <label>Endereço:<input type="text" name="Endereço"></label><br />
+    <label>Bairro:<input type="text" name="Bairro"></label>
+    <label>Cidade:<input type="text" name="Cidade"</label>
+    <label>Cep:<input type="text" name=Cep></label>
+    <label for="slcEstado">Estado</label>
+    <select id="slcEstado" name="slcEstado"multiplo>
+        <option value="<php echo $row_usu['id']; ?>"<?php echo $row_usu['uf']; ?></option>
+            <option value=""></option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MS">MS</option>
+            <option value="MT">MT</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+    </select>
+</fieldset>
+    <fieldset>
+
+    </fieldset>
+    
+</form>
